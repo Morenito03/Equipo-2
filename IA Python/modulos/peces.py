@@ -1,4 +1,4 @@
-from animal import Animal
+from modulos.animal import Animal
 class Pez(Animal):
    def __init__(self, cantidad, periodo_gestacion, nombre_cientifico, nombre_comun, region_procedencia, jaula, patio, cantidad_aletas):
       super().__init__(cantidad, periodo_gestacion, nombre_cientifico, nombre_comun, region_procedencia, jaula, patio)
